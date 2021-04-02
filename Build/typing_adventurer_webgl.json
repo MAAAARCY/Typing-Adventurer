@@ -1,0 +1,17 @@
+{
+"companyName": "Typing Adventurer",
+"productName": "Typing Adventurer",
+"productVersion": "1.0",
+"dataUrl": "typing_adventurer_webgl.data.unityweb",
+"asmCodeUrl": "typing_adventurer_webgl.asm.code.unityweb",
+"asmMemoryUrl": "typing_adventurer_webgl.asm.memory.unityweb",
+"asmFrameworkUrl": "typing_adventurer_webgl.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.11f1"
+}
