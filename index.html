@@ -19,19 +19,14 @@
       <div id="unity-mobile-warning">
         WebGL builds are not supported on mobile devices.
       </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Typing_Adventurer</div>
-      </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/typing_adventurer_webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/typing_adventurer_webgl.data.gz",
-        frameworkUrl: buildUrl + "/typing_adventurer_webgl.framework.js.gz",
-        codeUrl: buildUrl + "/typing_adventurer_webgl.wasm.gz",
+        dataUrl: buildUrl + "/typing_adventurer_webgl.data.unityweb",
+        frameworkUrl: buildUrl + "/typing_adventurer_webgl.framework.js.unityweb",
+        codeUrl: buildUrl + "/typing_adventurer_webgl.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Typing_Adventurer",
