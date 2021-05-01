@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Typing Adventurer</title>
+    <title>Unity WebGL Player | Typing_Adventurer</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,21 +22,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Typing Adventurer</div>
+        <div id="unity-build-title">Typing_Adventurer</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/typing_adventurer_webgl.asm.loader.js";
+      var loaderUrl = buildUrl + "/typing_adventurer_webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/typing_adventurer_webgl.data.unityweb",
-        frameworkUrl: buildUrl + "/typing_adventurer_webgl.asm.framework.js.unityweb",
-        codeUrl: buildUrl + "/typing_adventurer_webgl.asm.js.unityweb",
-        memoryUrl: buildUrl + "/typing_adventurer_webgl.asm.mem.unityweb",
+        dataUrl: buildUrl + "/typing_adventurer_webgl.data.gz",
+        frameworkUrl: buildUrl + "/typing_adventurer_webgl.framework.js.gz",
+        codeUrl: buildUrl + "/typing_adventurer_webgl.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Typing Adventurer",
-        productName: "Typing Adventurer",
-        productVersion: "1.0",
+        companyName: "DefaultCompany",
+        productName: "Typing_Adventurer",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
